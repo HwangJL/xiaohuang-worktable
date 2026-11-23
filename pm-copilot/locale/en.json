@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "PM Copilot (产品经理驾驶舱)",
+    "description": "The unified cockpit for the 小黄 product-manager agent preset. It appears in the left sidebar only while the main-view Session runs the `xiaohuang` Agent preset, and disappears for every other Session by unregistering its entry. Inside: work overview with six real metrics, task centre with real execution traces, requirement analysis and decomposition, the real DSH skill registry, knowledge-base search and ingest over `kb/`, business analysis views, solution design, PRD versions, deterministic quality checks and decision/knowledge settlement. All state lives in `<workspace>/.pm-copilot/` and is written by the Host half; every Agent action is a real `sessionController.prompt` into the current Session. Requirement: DSH >= 0.2.2-rc.3; uninstalling the bundle keeps `.pm-copilot/` and `kb/` untouched.",
+    "detail": "docs/DETAIL.md"
+  }
+}

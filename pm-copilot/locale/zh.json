@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "PM Copilot（产品经理驾驶舱）",
+    "description": "小黄产品经理模式专用的统一工作驾驶舱。只有当主视图会话运行 `xiaohuang` Agent preset 时，左侧栏才会注册该入口；其他会话一律看不到入口（切换会话时按注册层重新判定，无法确认身份时默认隐藏）。驾驶舱内含：六项真实指标的工作总览、带真实执行轨迹的任务中心、任务分析与拆解、真实 DSH Skill 注册表、基于 kb/ 的知识检索与沉淀、六视图业务分析、产品方案设计、PRD 版本管理、确定性质量检查、决策与知识沉淀。数据保存在 `<workspace>/.pm-copilot/`，由 Host 半边写入；每次「调用主 Agent」都通过 sessionController.prompt 真实发送到当前会话。要求 DSH >= 0.2.2-rc.3；卸载插件不会删除 `.pm-copilot/` 与 `kb/`。",
+    "detail": "docs/DETAIL.zh.md"
+  }
+}

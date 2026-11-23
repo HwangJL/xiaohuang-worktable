@@ -1,0 +1,15 @@
+# Runtime data written by the cockpit into a workspace belongs to the project,
+# never to this repository.
+.pm-copilot/
+kb/wiki/
+kb/raw/
+
+# Dependencies, logs, temp files
+node_modules/
+*.log
+*.tmp
+
+# Editors / OS cruft
+Thumbs.db
+desktop.ini
+.DS_Store

@@ -1,0 +1,67 @@
+{
+  "name": "@local/dsh-pm-copilot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PM Copilot (产品经理驾驶舱): the unified cockpit for the 小黄 product-manager agent preset.",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "icon": "icon.svg",
+  "files": [
+    "index.js",
+    "client.js",
+    "lib",
+    "src-client",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "scripts",
+    "tests",
+    "install.ps1",
+    "uninstall.ps1",
+    "README.md",
+    "SPEC.md"
+  ],
+  "scripts": {
+    "build": "node scripts/build-client.mjs",
+    "check": "node scripts/check-parts.mjs",
+    "verify": "node scripts/verify.mjs",
+    "test": "node scripts/verify.mjs && node tests/host.test.mjs && node tests/client-gate.test.mjs"
+  },
+  "dsh": {
+    "engines": {
+      "dsh": ">=0.2.2-rc.3"
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-ui-renderer",
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-session",
+        "@deepseek-ai/dsh-client-ui-workspace",
+        "@deepseek-ai/dsh-client-ui-sidebar",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-api-session-controller",
+        "@deepseek-ai/dsh-api-workspace-controller"
+      ]
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh": ">=0.2.2-rc.3",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {},
+  "license": "MIT"
+}

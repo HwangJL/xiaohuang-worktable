@@ -1,0 +1,4 @@
+# Byte-identical checkout: the generated client artifact's size is recorded in
+# README/docs, so normalise every text file to LF on checkout regardless of the
+# machine's core.autocrlf setting.
+* text=auto eol=lf

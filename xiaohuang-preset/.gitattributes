@@ -1,0 +1,3 @@
+# Keep cordis.patch.yml byte-stable across checkouts: the YAML block scalars in
+# the persona prompt are line-sensitive, and the loader reads this file as-is.
+* text=auto eol=lf

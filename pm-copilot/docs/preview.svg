@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="300" viewBox="0 0 640 300" role="img" aria-label="PM Copilot cockpit illustration">
+  <rect width="640" height="300" fill="#f6f8fb"/>
+  <rect x="32" y="24" width="576" height="252" rx="14" fill="#ffffff" stroke="#dfe6ef" stroke-width="1.5"/>
+  <rect x="32" y="24" width="576" height="46" rx="14" fill="#0f2545"/>
+  <rect x="32" y="58" width="576" height="12" fill="#0f2545"/>
+  <circle cx="58" cy="47" r="7" fill="#7ee0c0"/>
+  <rect x="80" y="41" width="132" height="12" rx="6" fill="#cfe1ff" opacity="0.9"/>
+  <rect x="430" y="38" width="70" height="18" rx="9" fill="#2468d6"/>
+  <rect x="510" y="38" width="74" height="18" rx="9" fill="#ffffff" opacity="0.18"/>
+  <rect x="46" y="86" width="126" height="178" rx="10" fill="#eef2f7"/>
+  <rect x="58" y="100" width="86" height="10" rx="5" fill="#8fb3e8"/>
+  <rect x="58" y="122" width="102" height="14" rx="6" fill="#2468d6" opacity="0.9"/>
+  <rect x="58" y="146" width="94" height="10" rx="5" fill="#b9c9dd"/>
+  <rect x="58" y="166" width="100" height="10" rx="5" fill="#b9c9dd"/>
+  <rect x="58" y="186" width="88" height="10" rx="5" fill="#b9c9dd"/>
+  <rect x="58" y="206" width="96" height="10" rx="5" fill="#b9c9dd"/>
+  <rect x="58" y="226" width="78" height="10" rx="5" fill="#b9c9dd"/>
+  <rect x="190" y="86" width="242" height="74" rx="10" fill="#e8f0fd" stroke="#c7d9f7" stroke-width="1"/>
+  <rect x="204" y="100" width="68" height="9" rx="4" fill="#55708f"/>
+  <rect x="204" y="118" width="150" height="12" rx="6" fill="#2468d6"/>
+  <rect x="204" y="138" width="106" height="8" rx="4" fill="#8ba0b8"/>
+  <rect x="190" y="170" width="116" height="94" rx="10" fill="#ffffff" stroke="#dfe6ef" stroke-width="1"/>
+  <rect x="204" y="184" width="58" height="9" rx="4" fill="#55708f"/>
+  <rect x="204" y="202" width="86" height="8" rx="4" fill="#57b8a0"/>
+  <rect x="204" y="220" width="70" height="8" rx="4" fill="#8ba0b8"/>
+  <rect x="204" y="238" width="80" height="8" rx="4" fill="#8ba0b8"/>
+  <rect x="316" y="170" width="116" height="94" rx="10" fill="#ffffff" stroke="#dfe6ef" stroke-width="1"/>
+  <rect x="330" y="184" width="58" height="9" rx="4" fill="#55708f"/>
+  <circle cx="338" cy="206" r="5" fill="#2468d6"/>
+  <rect x="350" y="202" width="66" height="8" rx="4" fill="#8ba0b8"/>
+  <circle cx="338" cy="226" r="5" fill="#7ee0c0"/>
+  <rect x="350" y="222" width="54" height="8" rx="4" fill="#8ba0b8"/>
+  <circle cx="338" cy="246" r="5" fill="#ffd166"/>
+  <rect x="350" y="242" width="60" height="8" rx="4" fill="#8ba0b8"/>
+  <rect x="446" y="86" width="148" height="178" rx="10" fill="#eef2f7"/>
+  <rect x="458" y="100" width="66" height="9" rx="4" fill="#55708f"/>
+  <rect x="458" y="120" width="124" height="22" rx="7" fill="#ffffff" stroke="#dfe6ef" stroke-width="1"/>
+  <rect x="458" y="150" width="124" height="22" rx="7" fill="#ffffff" stroke="#dfe6ef" stroke-width="1"/>
+  <rect x="458" y="180" width="124" height="22" rx="7" fill="#ffffff" stroke="#dfe6ef" stroke-width="1"/>
+  <rect x="458" y="210" width="96" height="8" rx="4" fill="#8ba0b8"/>
+  <rect x="458" y="226" width="110" height="8" rx="4" fill="#8ba0b8"/>
+  <rect x="458" y="242" width="82" height="8" rx="4" fill="#8ba0b8"/>
+</svg>

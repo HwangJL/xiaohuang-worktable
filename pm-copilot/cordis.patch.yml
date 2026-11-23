@@ -1,0 +1,14 @@
+# PM Copilot bundle patch: one dual-face plugin row.
+#
+# The node half (exports ".") runs in the Host process: it registers the
+# /api/pm-copilot routes, the pm_copilot agent tool, and the session-event
+# recorder. The `dsh.client` declaration in package.json makes the browser
+# half (exports "./client") load in the Web GUI, where it registers the left
+# sidebar entry ONLY while the main-view Session runs the `xiaohuang` agent
+# preset.
+#
+# Nothing here writes the user's profile: this file travels with the package
+# and `plugin_manager install_bundle` selects it.
+- insert:
+    - id: pm-copilot
+      name: '@local/dsh-pm-copilot'

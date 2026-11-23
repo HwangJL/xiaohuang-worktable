@@ -1,0 +1,6 @@
+# Keep the checkout byte-identical to what the bundles read at runtime: YAML
+# block scalars and the generated client artifact are both line-sensitive.
+* text=auto eol=lf
+
+# Windows helper scripts keep CRLF so `pwsh -File` sees familiar line endings.
+*.ps1 text eol=crlf

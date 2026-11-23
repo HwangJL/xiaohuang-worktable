@@ -1,0 +1,11 @@
+# xiaohuang-preset — this bundle is data only (package.json + cordis.patch.yml).
+# Nothing generated, nothing runtime-written, so the ignore list is just hygiene.
+
+node_modules/
+*.log
+*.tmp
+
+# Editors / OS cruft
+Thumbs.db
+desktop.ini
+.DS_Store
